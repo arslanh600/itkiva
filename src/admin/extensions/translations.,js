@@ -1,0 +1,5 @@
+const languageNativeNames = {
+  ar: 'العربية',
+  bg: 'Български',
+  cs: 'Čeština',
+}

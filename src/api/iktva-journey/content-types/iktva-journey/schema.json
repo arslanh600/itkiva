@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "iktva_journeys",
+  "info": {
+    "singularName": "iktva-journey",
+    "pluralName": "iktva-journeys",
+    "displayName": "iktvaJourney",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading1": {
+      "type": "string"
+    },
+    "Details1": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Heading2": {
+      "type": "string"
+    },
+    "Details2": {
+      "type": "richtext"
+    },
+    "Heading3": {
+      "type": "string"
+    },
+    "Details3": {
+      "type": "richtext"
+    },
+    "Heading4": {
+      "type": "string"
+    },
+    "Details4": {
+      "type": "richtext"
+    },
+    "Heading5": {
+      "type": "string"
+    },
+    "Details5": {
+      "type": "richtext"
+    },
+    "Heading6": {
+      "type": "string"
+    },
+    "Details6": {
+      "type": "richtext"
+    },
+    "Heading": {
+      "type": "string"
+    }
+  }
+}

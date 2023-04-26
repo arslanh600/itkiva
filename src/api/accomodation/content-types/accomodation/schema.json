@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accomodations",
+  "info": {
+    "singularName": "accomodation",
+    "pluralName": "accomodations",
+    "displayName": "Accomodation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Details": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Location": {
+      "type": "dynamiczone",
+      "components": [
+        "location.location",
+        "hotel-details.hotel-details"
+      ]
+    },
+    "GeoLocation": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

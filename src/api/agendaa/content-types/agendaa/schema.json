@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendaas",
+  "info": {
+    "singularName": "agendaa",
+    "pluralName": "agendaas",
+    "displayName": "Agendaa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "Activities": {
+      "type": "string"
+    },
+    "Pavilions": {
+      "type": "string"
+    },
+    "Workshop": {
+      "type": "string"
+    },
+    "workshops": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::workshop.workshop",
+      "mappedBy": "agendaa"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity",
+      "mappedBy": "agendaa"
+    }
+  }
+}

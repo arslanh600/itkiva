@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "FAQ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "FAQ2": {
+      "type": "string"
+    },
+    "FAQ3": {
+      "type": "string"
+    },
+    "FAQ4": {
+      "type": "string"
+    },
+    "FAQ5": {
+      "type": "string"
+    },
+    "FAQ6": {
+      "type": "string"
+    },
+    "FAQ7": {
+      "type": "string"
+    },
+    "FAQ8": {
+      "type": "string"
+    },
+    "FAQ1": {
+      "type": "string"
+    }
+  }
+}

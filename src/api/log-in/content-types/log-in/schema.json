@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "log_ins",
+  "info": {
+    "singularName": "log-in",
+    "pluralName": "log-ins",
+    "displayName": "LogIn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "PhoneNo": {
+      "type": "biginteger"
+    },
+    "Password": {
+      "type": "password"
+    },
+    "Heading": {
+      "type": "string"
+    }
+  }
+}

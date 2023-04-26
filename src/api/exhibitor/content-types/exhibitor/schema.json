@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exhibitors",
+  "info": {
+    "singularName": "exhibitor",
+    "pluralName": "exhibitors",
+    "displayName": "Exhibitor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu": {
+      "type": "string"
+    },
+    "Details": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

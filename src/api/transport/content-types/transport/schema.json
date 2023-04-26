@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transports",
+  "info": {
+    "singularName": "transport",
+    "pluralName": "transports",
+    "displayName": "Transport",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "SubHeading1": {
+      "type": "string"
+    },
+    "SubHeadingDetails1": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Icons": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubHeading2": {
+      "type": "string"
+    },
+    "SubHeadingDetails2": {
+      "type": "richtext"
+    },
+    "SubHeading3": {
+      "type": "string"
+    },
+    "SubHeadingDetails3": {
+      "type": "richtext"
+    },
+    "SubHeading4": {
+      "type": "string"
+    },
+    "SubHeadingDetails4": {
+      "type": "richtext"
+    }
+  }
+}

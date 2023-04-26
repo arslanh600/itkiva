@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "how_to_registers",
+  "info": {
+    "singularName": "how-to-register",
+    "pluralName": "how-to-registers",
+    "displayName": "HowToRegister",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Details": {
+      "type": "richtext"
+    },
+    "SubHeading": {
+      "type": "string"
+    },
+    "GeoLocation": {
+      "type": "string"
+    },
+    "SubHeadingDetails": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubbHeading": {
+      "type": "string"
+    },
+    "SubbHeadingDetails": {
+      "type": "richtext"
+    }
+  }
+}

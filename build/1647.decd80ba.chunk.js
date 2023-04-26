@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiktva_strapi_api=self.webpackChunkiktva_strapi_api||[]).push([[1647],{71647:t=>{t.exports=JSON.parse('{"localazy_settings":"Localazy Settings","content_transfer_setup":"Content Transfer Setup"}')}}]);

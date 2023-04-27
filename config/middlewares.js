@@ -7,7 +7,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:1337']
+      origin: ['http://localhost:1337','http://localhost:4200','https://iktiva-api.onrender.com']
     }
   },
   'strapi::logger',
